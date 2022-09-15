@@ -1,7 +1,7 @@
-interface alumnoUtl2{
+interface alumnoUtl{
     nombre:string;
     edad:number;
-    direccion2:{
+    direccion:{
         calle:string;
         pais:string;
         estado:string;
@@ -9,20 +9,20 @@ interface alumnoUtl2{
     mostrarDireccion:()=>void;
 }
 
-const AlumnoUTL2:alumnoUtl2={
-    nombre:"David2",
+const AlumnoUTL:alumnoUtl={
+    nombre:"David",
     edad:23,
-    direccion2:{
+    direccion:{
         calle:"Veracruz",
         pais:"MX",
         estado:"GTO",
     }, 
 
     mostrarDireccion(){
-        return this.nombre + ', ' + this.direccion2.calle + ', '+ this.direccion2.estado + ', '+ this.direccion2.pais;
+        return this.nombre + ', ' + this.direccion.calle + ', ' + this.direccion.estado + ', ' + this.direccion.pais;
     }
 }
 
-const direccion2 = AlumnoUTL2.mostrarDireccion();
-console.log(direccion2);
+const direccion = AlumnoUTL.mostrarDireccion();
+console.log(direccion);
 //Todos los objetos tienen que tener tipado de datos 
