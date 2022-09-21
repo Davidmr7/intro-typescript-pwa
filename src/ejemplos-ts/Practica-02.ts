@@ -34,9 +34,9 @@ let formula3 = new formula();//Creamos un nuevo objeto
 formula3.a = 6;//Asignamos valores a las propiedades del objeto
 formula3.b = -19;
 formula3.c = 7;
-console.log("El resultado del objeto de X1 es " + formula5.formulaGeneralx11(formula3.a,formula3.b,formula3.c));//Le pasamos los valores que ingresamos
+console.log("El resultado del objeto de X1 es " + formula5.formulaGeneralx11(formula3.a,formula3.b,formula3.c));
 console.log("El resultado del objeto de X2 es " + formula5.formulaGeneralx22(formula3.a,formula3.b,formula3.c));
-//Imprimimos y le asignamos las 3 propiedades y nos va a devolver el X1 y el X2
+//Imprimimos y le asignamos las 3 propiedades del objeto y nos va a devolver el X1 y el X2
 
 
 
