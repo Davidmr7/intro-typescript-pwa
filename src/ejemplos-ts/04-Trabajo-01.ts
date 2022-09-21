@@ -19,7 +19,7 @@ const AlumnoUTL:alumnoUtl={
     }, 
 
     mostrarDireccion(){
-        return this.nombre + ', ' + this.direccion.calle + ', ' + this.direccion.estado + ', ' + this.direccion.pais;
+        return this.nombre +  ', ' + this.direccion.estado + ', ' + this.direccion.pais;
     }
 }
 
